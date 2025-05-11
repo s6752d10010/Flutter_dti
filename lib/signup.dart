@@ -10,8 +10,19 @@ class SignupPage extends StatelessWidget {
         padding: const EdgeInsets.all(24.0),
         child: ListView(
           children: [
+            // ปุ่มย้อนกลับไปหน้า Welcome
+            Align(
+              alignment: Alignment.topLeft,
+              child: IconButton(
+                icon: const Icon(Icons.arrow_back),
+                onPressed: () => Navigator.pushNamed(context, '/'),
+              ),
+            ),
+
+            // โลโก้หรือภาพประกอบ
             Image.asset('assets/logo.png', height: 200),
             const SizedBox(height: 20),
+
             const Text(
               'Get On Board!',
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
@@ -21,6 +32,7 @@ class SignupPage extends StatelessWidget {
               style: TextStyle(fontSize: 16),
             ),
             const SizedBox(height: 30),
+
             const TextField(
               decoration: InputDecoration(
                 labelText: 'Full Name',
@@ -29,6 +41,7 @@ class SignupPage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 15),
+
             const TextField(
               decoration: InputDecoration(
                 labelText: 'E-Mail',
@@ -37,37 +50,41 @@ class SignupPage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 15),
+
             const TextField(
               decoration: InputDecoration(
                 labelText: 'Phone No',
-                prefixIcon: Icon(Icons.phone),
                 border: OutlineInputBorder(),
+                prefixIcon: Icon(Icons.phone),
               ),
             ),
             const SizedBox(height: 15),
+
             const TextField(
               obscureText: true,
               decoration: InputDecoration(
                 labelText: 'Password',
                 border: OutlineInputBorder(),
                 prefixIcon: Icon(Icons.fingerprint),
-                suffixIcon: Icon(
-                    Icons.visibility_off), // Placeholder for visibility toggle
+                suffixIcon: Icon(Icons.visibility_off),
               ),
             ),
             const SizedBox(height: 20),
+
             ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 200, 40, 40),
+                backgroundColor: Colors.black,
                 foregroundColor: Colors.white,
                 padding: const EdgeInsets.symmetric(vertical: 16),
               ),
               child: const Text('SIGNUP'),
             ),
             const SizedBox(height: 20),
+
             const Center(child: Text('OR')),
             const SizedBox(height: 10),
+
             OutlinedButton.icon(
               onPressed: () {},
               icon: Image.asset('assets/icon.png', height: 24),
@@ -77,6 +94,7 @@ class SignupPage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
+
             Center(
               child: TextButton(
                 onPressed: () => Navigator.pushNamed(context, '/login'),
