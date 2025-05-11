@@ -1,16 +1,14 @@
-# flutter_dti
+# Project flutter_dti
 
-A new Flutter project.
+Ui Screen Only Welcome, Login, Signup
 
-## Getting Started
+## ภาพ UI Screen
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<"img src="https://github.com/user-attachments/assets/83f3956e-c64f-4345-bb86-a73a83483121" width=200>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<"img src="https://github.com/user-attachments/assets/2892cb1d-f737-4545-93fe-2b55ce71216f" width=200>
+
+
+<"img https://github.com/user-attachments/assets/70e7d2fb-6399-49a5-8131-e898c32b7721" width=200>
