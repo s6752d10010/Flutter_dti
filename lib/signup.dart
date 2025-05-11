@@ -87,7 +87,7 @@ class SignupPage extends StatelessWidget {
 
             OutlinedButton.icon(
               onPressed: () {},
-              icon: Image.asset('assets/icon.png', height: 24),
+              icon: Image.asset('assets/google.png', height: 24),
               label: const Text('SIGN-IN WITH GOOGLE'),
               style: OutlinedButton.styleFrom(
                 padding: const EdgeInsets.symmetric(vertical: 16),

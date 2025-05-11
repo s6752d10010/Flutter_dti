@@ -85,7 +85,7 @@ class _LoginPageState extends State<LoginPage> {
             const SizedBox(height: 10),
             OutlinedButton.icon(
               onPressed: () {},
-              icon: Image.asset('assets/icon.png', height: 24),
+              icon: Image.asset('assets/google.png', height: 24),
               label: const Text('Sign-In with Google'),
               style: OutlinedButton.styleFrom(
                 padding: const EdgeInsets.symmetric(vertical: 16),
